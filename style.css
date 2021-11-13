@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial Rounded MT;
+    background: linear-gradient( to top,#ac019b,#f003c6,#fe42d6,#fc7cfa,#ffc9f6);
+    height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 10px auto;
+    background-color: #272727;
+    border-radius: 10%;
+}
+
+table tr td{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255,255,255,.05);
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+table tr td:hover{
+    background: #2c3531;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.but{
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    left: 50.1%;
+    top: 75%;
+}
+
+.text{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    font-size: 6rem;
+}
+
+.shift{
+    top: 50%;
+    left: 50%;
+    transform: translate(1%,100%);
+}
+
+.text1{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-45%,200%);
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+}
+
+.but:hover{
+    color: #3fc80e;
+}
